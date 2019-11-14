@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavBar from './components/Nav/Nav';
 import Slide from './components/SlideMenu/Slide';
 import BackDrop from './components/BackDrop/BackDrop';
+import CenterContent from './components/CenterContent/CenterContent';
 import './App.css';
 
 class App extends Component {
@@ -30,7 +31,7 @@ class App extends Component {
         <NavBar slideClickHandler={this.slideToggleHandler}/>
         <Slide show={this.state.slideOpen} />;
         {backdrop}
-        
+        <CenterContent />
       </div>
     );
   }
