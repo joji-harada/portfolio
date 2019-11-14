@@ -19,12 +19,8 @@
     margin-right: 15px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 321px){
     .centerContent h1{
-        color: white;
-        
-    }
-    .centerList li{
         color: white;
     }
 }

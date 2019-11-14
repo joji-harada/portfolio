@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <div style={{height:'100%'}} className="App">
         <NavBar slideClickHandler={this.slideToggleHandler}/>
-        <Slide show={this.state.slideOpen} />;
+        <Slide show={this.state.slideOpen} />
         {backdrop}
         <CenterContent />
       </div>
