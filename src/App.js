@@ -30,9 +30,7 @@ class App extends Component {
         <NavBar slideClickHandler={this.slideToggleHandler}/>
         <Slide show={this.state.slideOpen} />;
         {backdrop}
-        <main>
-          <h1>George Allison</h1>
-        </main>
+        
       </div>
     );
   }
