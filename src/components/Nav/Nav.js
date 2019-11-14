@@ -9,7 +9,7 @@ const NavBar = props => (
             <div className="navbar__button">
                 <ToggleButton click={props.slideClickHandler}/>
             </div>
-            <div className="navbar__logo"><a href="/">THE LOGO</a></div>
+            <div className="navbar__logo"><a href="/">GEORGE ALLISON</a></div>
             <div className="spacer" />
                 <div className="navbar_items">
                     <ul>
