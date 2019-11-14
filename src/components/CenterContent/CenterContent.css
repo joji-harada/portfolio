@@ -18,3 +18,13 @@
 .centerList li{
     margin-right: 15px;
 }
+
+@media (max-width: 768px){
+    .centerContent h1{
+        color: white;
+        
+    }
+    .centerList li{
+        color: white;
+    }
+}
