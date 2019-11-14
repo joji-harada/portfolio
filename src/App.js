@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import NavBar from './components/Nav/Nav';
+import Slide from './components/SlideMenu/Slide';
+import BackDrop from './components/BackDrop/BackDrop';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    slideOpen: false
+  };
+
+  slideToggleHandler = () => {
+    this.setState((prevState) => {
+      return {slideOpen: !prevState.slideOpen};
+    });
+  };
+
+  backDropClickHandler = () => {
+    this.setState({slideOpen: false});
+  };
+
+  render() {
+    let backdrop;
+
+    if(this.state.slideOpen){
+      backdrop = <BackDrop click={this.backDropClickHandler}/>;
+    }
+    return (
+      <div style={{height:'100%'}} className="App">
+        <NavBar slideClickHandler={this.slideToggleHandler}/>
+        <Slide show={this.state.slideOpen} />;
+        {backdrop}
+        <main>
+          <h1>George Allison</h1>
+        </main>
+      </div>
+    );
+  }
 }
 
 export default App;
