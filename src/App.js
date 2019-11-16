@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+
 import NavBar from './components/Nav/Nav';
 import Slide from './components/SlideMenu/Slide';
 import BackDrop from './components/BackDrop/BackDrop';
 import CenterContent from './components/CenterContent/CenterContent';
 import Projects from './components/Sections/Projects'
 import Contact from './components/Sections/Contact';
+import Footer from './components/Footer/Footer';
+
 import './App.css';
 
 class App extends Component {
@@ -36,6 +39,7 @@ class App extends Component {
         <CenterContent />
         <Projects />
         <Contact />
+        <Footer />
       </div>
     );
   }
