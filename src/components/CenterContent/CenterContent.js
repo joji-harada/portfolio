@@ -3,7 +3,7 @@ import './CenterContent.css';
 import { SocialIcon } from 'react-social-icons';
 
 const CenterContent = props => (
-    <div className="centerMe">
+    <div id="home" className="centerMe">
         <div className="centerContent">
             <h1>GEORGE ALLISON</h1>
             <ul className="centerList">

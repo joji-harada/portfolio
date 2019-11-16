@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import './Slide.css';
 
 const Slide = props => {
@@ -8,10 +9,37 @@ const Slide = props => {
     }
     return(
         <nav className={slideClasses}>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
+            <ul onClick={props.click}>
+                <li>
+                    <Link
+                        onClick={props.slideClickHandler}
+                        activeClass="active"
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >Home</Link></li>
+                <li>
+                    <Link
+                        onClick={props.slideClickHandler}
+                        activeClass="active"
+                        to="projects" 
+                        spy={true}
+                        smooth={true}
+                        offset={-56}
+                        duration={500}
+                    >Projects</Link></li>
+                <li>
+                    <Link
+                        onClick={props.slideClickHandler}
+                        activeClass="active"
+                        to="contact" 
+                        spy={true}
+                        smooth={true}
+                        offset={-56}
+                        duration={500}
+                    >Contact</Link></li>
             </ul>
         </nav>
     )

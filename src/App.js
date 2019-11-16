@@ -3,6 +3,8 @@ import NavBar from './components/Nav/Nav';
 import Slide from './components/SlideMenu/Slide';
 import BackDrop from './components/BackDrop/BackDrop';
 import CenterContent from './components/CenterContent/CenterContent';
+import Projects from './components/Sections/Projects'
+import Contact from './components/Sections/Contact';
 import './App.css';
 
 class App extends Component {
@@ -29,9 +31,11 @@ class App extends Component {
     return (
       <div style={{height:'100%'}} className="App">
         <NavBar slideClickHandler={this.slideToggleHandler}/>
-        <Slide show={this.state.slideOpen} />
+        <Slide show={this.state.slideOpen} slideClickHandler={this.slideToggleHandler}/>
         {backdrop}
         <CenterContent />
+        <Projects />
+        <Contact />
       </div>
     );
   }
