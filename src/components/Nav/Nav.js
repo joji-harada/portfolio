@@ -1,25 +1,62 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 import ToggleButton from '../SlideMenu/ToggleButton';
 import './Nav.css';
 
-const NavBar = props => (
-    <header className="navbar">
-        <nav className="navbar__nav">
-            <div className="navbar__button">
-                <ToggleButton click={props.slideClickHandler}/>
-            </div>
-            <div className="navbar__logo"><a href="/">GEORGE ALLISON</a></div>
-            <div className="spacer" />
-                <div className="navbar_items">
-                    <ul>
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
+
+
+class NavBar extends React.Component {
+    scrollToTop = () => {
+        scroll.scrollToTop();
+    }
+
+    render() {
+    return(
+        <header className="navbar">
+            <nav className="navbar__nav">
+                <div className="navbar__button">
+                    <ToggleButton click={this.props.slideClickHandler}/>
                 </div>
-        </nav>
-    </header>
-);
+                <div className="navbar__logo" onClick={this.scrollToTop}>
+                    <h2>GEORGE ALLISON</h2>
+                </div>
+                <div className="spacer" />
+                    <div className="navbar_items">
+                        <ul>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="home"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >Home</Link></li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="projects" 
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-56}
+                                    duration={500}
+                                >Projects</Link></li>
+                            <li>
+                                <Link
+                                    activeClass="active"
+                                    to="contact" 
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-56}
+                                    duration={500}
+                                >Contact</Link></li>
+                        </ul>
+                    </div>
+            </nav>
+        </header>
+    )
+    }
+}
 
 export default NavBar;
