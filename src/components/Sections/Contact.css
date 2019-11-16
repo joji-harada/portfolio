@@ -1,10 +1,10 @@
-#projects{
+#contact{
     margin-top: -20px;
     height: 100vh;
-    background-color: #C3CCCB;
+    background-color: #D1B99B;
 }
 
-#projects h2{
+#contact h2{
     display: flex;
     align-items: center;
     justify-content: center;
