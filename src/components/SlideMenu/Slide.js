@@ -18,7 +18,7 @@ const Slide = props => {
                         spy={true}
                         smooth={true}
                         offset={-70}
-                        duration={500}
+                        duration={700}
                     >Home</Link></li>
                 <li>
                     <Link
@@ -28,7 +28,7 @@ const Slide = props => {
                         spy={true}
                         smooth={true}
                         offset={-56}
-                        duration={500}
+                        duration={700}
                     >Projects</Link></li>
                 <li>
                     <Link
@@ -38,7 +38,7 @@ const Slide = props => {
                         spy={true}
                         smooth={true}
                         offset={-56}
-                        duration={500}
+                        duration={700}
                     >Contact</Link></li>
             </ul>
         </nav>

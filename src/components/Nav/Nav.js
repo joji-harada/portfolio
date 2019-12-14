@@ -31,7 +31,7 @@ class NavBar extends React.Component {
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
-                                    duration={500}
+                                    duration={600}
                                 >Home</Link></li>
                             <li>
                                 <Link
@@ -40,7 +40,7 @@ class NavBar extends React.Component {
                                     spy={true}
                                     smooth={true}
                                     offset={-56}
-                                    duration={500}
+                                    duration={600}
                                 >Projects</Link></li>
                             <li>
                                 <Link
@@ -49,7 +49,7 @@ class NavBar extends React.Component {
                                     spy={true}
                                     smooth={true}
                                     offset={-56}
-                                    duration={500}
+                                    duration={600}
                                 >Contact</Link></li>
                         </ul>
                     </div>
