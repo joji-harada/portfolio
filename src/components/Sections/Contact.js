@@ -37,12 +37,20 @@ class Contact extends React.Component {
                     <input
                         type='text'
                         name='username'
+                        style={{padding: '5px',
+                                fontWeight: 400,
+                                borderRadius: '5px'}}
                     />
                     {this.state.errormessage}
                     <p>What service do you require?</p>
                     <textarea
                         type='text'
                         name='comment'
+                        style={{resize: 'none',
+                               width: '250px',
+                               height: '100px',
+                               fontWeight: 400,
+                               borderRadius: '5px'}}
                     >
                     </textarea>
                     {this.state.errormessage}
