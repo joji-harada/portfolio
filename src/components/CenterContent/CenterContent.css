@@ -15,8 +15,9 @@
 }
 
 .centerContent h1{
-    border: white solid 1px;
-    background-color: white;
+    color: white;
+    border: black solid 1px;
+    background-color: black;
     padding: 2px 7px 0 7px;
     border-radius: 3px;
     cursor: default;
