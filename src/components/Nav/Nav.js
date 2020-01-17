@@ -19,7 +19,7 @@ class NavBar extends React.Component {
                     <ToggleButton click={this.props.slideClickHandler}/>
                 </div>
                 <div className="navbar__logo" onClick={this.scrollToTop}>
-                    <h2>GEORGE ALLISON</h2>
+                    <h2 title="To the top">GEORGE ALLISON</h2>
                 </div>
                 <div className="spacer" />
                     <div className="navbar_items">
