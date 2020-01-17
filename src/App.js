@@ -4,7 +4,7 @@ import NavBar from './components/Nav/Nav';
 import Slide from './components/SlideMenu/Slide';
 import BackDrop from './components/BackDrop/BackDrop';
 import CenterContent from './components/CenterContent/CenterContent';
-import Projects from './components/Sections/Projects'
+import Cards from './components/Sections/Cards';
 import Contact from './components/Sections/Contact';
 import Footer from './components/Footer/Footer';
 
@@ -37,7 +37,7 @@ class App extends Component {
         <Slide show={this.state.slideOpen} slideClickHandler={this.slideToggleHandler}/>
         {backdrop}
         <CenterContent />
-        <Projects />
+        <Cards />
         <Contact />
         <Footer />
       </div>
