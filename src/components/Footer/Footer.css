@@ -1,8 +1,19 @@
 .footer{   
     width: 100%;
-    /* position: fixed; */
     bottom: 0;
     left: 0;
     background: #666;
-    height: 45px;
+    height: 65px;
+}
+
+.footer-icons li{
+    list-style-type: none;
+    float: right;
+    margin-right: 35px;
+    margin-top: 7px;
+}
+
+.footer-icons{
+    float: left;
+    margin-top: 7px;
 }

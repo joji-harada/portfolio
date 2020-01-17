@@ -15,7 +15,7 @@ class Cards extends Component{
                         <Projects imgsrc={img1} title="Java College DB" link="https://github.com/joji-harada/java_lists" />
                     </div>
                     <div className="col-md-4">
-                        <Projects imgsrc={img2} title="Django Inventory App" link="https://github.com/joji-harada/musicapp" />
+                        <Projects imgsrc={img2} title="Top Pot Doughnuts Website" link="https://github.com/joji-harada/musicapp" />
                     </div>
                     <div className="col-md-4">
                         <Projects imgsrc={img3} title="MERN Shopping List" link="https://github.com/joji-harada/mern_shopping_list" />
