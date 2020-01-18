@@ -48,7 +48,7 @@ export default class MyForm extends React.Component {
                     fontWeight: 400,
                     borderRadius: '5px'}}
                 />
-            {status === "SUCCESS" ? <p>Thanks!</p> : <button style={{ margin: '10px 0', fontWeight: 'bold' }}>Submit</button>}
+            {status === "SUCCESS" ? <p>Thanks!</p> : <button style={{ margin: '10px 0', fontWeight: 'bold', lineHeight: "15px", paddingTop: "3px", borderRadius: "3px" }}>Submit</button>}
             {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
       </div>  
