@@ -22,7 +22,7 @@ class Cards extends Component{
                         <Projects
                             imgsrc={"https://media.giphy.com/media/j51UlwdNabvFkL1LoO/giphy.gif"}
                             title="Top Pot Doughnuts Website"
-                            link="https://github.com/joji-harada/musicapp"
+                            link="https://github.com/joji-harada/toppot"
                             description="A full build website for Top Pot Doughnuts. I took design influence from local eateries and bars including Molly Moon's and Optimism Brewing Co. I utilized two JQuery libraries to implement several UX functions. The first was the parallax scrolling affect on each webpage, and more importantly I used an accordion in order to condense the locations list."
                         />
                     </div>
