@@ -10,7 +10,7 @@ const Projects = props => {
         <div className="card-body text-dark">
             <h4 className="card-title">{props.title}</h4>
             <p className="card-text text-secondary">
-                Occaecat et incididunt nisi amet occaecat quis est. Consectetur sit do ipsum ipsum amet quis duis nostrud proident eu. Do aliqua qui eiusmod non adipisicing id aute ad. Esse ea anim reprehenderit consectetur esse ea labore cupidatat in mollit eiusmod laborum ullamco enim. Irure veniam magna incididunt exercitation. Exercitation velit sint incididunt eiusmod laboris duis exercitation dolor anim esse aliquip incididunt do. Cupidatat minim sint ad nulla magna id Lorem ullamco officia anim cupidatat ad aliquip id.
+                {props.description}
             </p>
             <a href={props.link} target="_blank" rel="noopener noreferrer" className="btn btn-outline-success">View Code</a>
         </div>
