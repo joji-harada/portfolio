@@ -38,7 +38,7 @@ export default class MyForm extends React.Component {
                     fontWeight: 400,
                     borderRadius: '5px'}}
                 />
-            <label style={{ margin: '10px 0' }}>Your Message:</label>
+            <label style={{ margin: '10px 0' }}>What can I do for you?</label>
                 <textarea
                 type="text"
                 name="message"
