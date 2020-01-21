@@ -7,7 +7,11 @@ const CenterContent = props => (
         <div className="centerContent">
             <h1>GEORGE ALLISON</h1>
             <h2
-                style={{fontSize: "1.3rem", color: "black", margin: "20px 0"}}
+            style={{
+                fontSize: "1.3rem",
+                color: "black",
+                margin: "20px 0"
+            }}
             >software engineer</h2>
             <ul className="centerList">
                 <li><SocialIcon url="https://github.com/joji-harada" title="GitHub" target="_blank" bgColor="#000" fgColor="#fff" /></li>
