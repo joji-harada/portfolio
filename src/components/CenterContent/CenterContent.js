@@ -16,6 +16,7 @@ const CenterContent = props => (
             <ul className="centerList">
                 <li><SocialIcon url="https://github.com/joji-harada" title="GitHub" target="_blank" bgColor="#000" fgColor="#fff" /></li>
                 <li><SocialIcon url="https://www.linkedin.com/in/george-allison-728975139/" title="LinkedIn" target="_blank" bgColor="#000" fgColor="#fff" /></li>
+                <li><SocialIcon url="https://docs.google.com/document/d/10WK2DcJq4UghFlScD_5uJ4Kfs58mEcGT88mAZ6guzMA/edit?usp=sharing" title="Resume-Google Drive" target="_blank" bgColor="#000" fgColor="#fff" /></li>
             </ul>
         </div>
     </div>
