@@ -10,10 +10,10 @@ class Cards extends Component{
                 <div className="row">
                     <div className="col-md-4">
                         <Projects
-                            imgsrc={"https://media.giphy.com/media/cO9MAppND3IrZcI3ZM/giphy.gif"}
-                            title="Top Pot Doughnuts Website"
-                            link="https://github.com/joji-harada/toppot"
-                            description="A full build website for Top Pot Doughnuts. I took design influence from local eateries and bars including Molly Moon's and Optimism Brewing Co. I utilized two JQuery libraries to implement several UX functions. The first was the parallax scrolling affect on each webpage, and more importantly I used an accordion in order to condense the locations list. PHP configure files were used to implement recaptcha form validation."
+                            imgsrc={"https://gfycat.com/insidiousglumalaskanmalamute"}
+                            title="ETF Stock Tracker"
+                            link="https://github.com/joji-harada/FNGU-Stock-Tracker"
+                            description="This project aims to solve a common problem for investors with stake in an Exchange Trade Fund (ETF). Investors can now view the performances of all securities contained in an ETF on one page, as well has dynamically displaying content dependent on individual stock performance."
                         />
                     </div>
                     <div className="col-md-4">
