@@ -10,7 +10,7 @@ class Cards extends Component{
                 <div className="row">
                     <div className="col-md-4">
                         <Projects
-                            imgsrc={"https://gfycat.com/insidiousglumalaskanmalamute"}
+                            imgsrc={"https://media.giphy.com/media/LGQlsmJ5mFl7TB4ZOS/giphy.gif"}
                             title="ETF Stock Tracker"
                             link="https://github.com/joji-harada/FNGU-Stock-Tracker"
                             description="This project aims to solve a common problem for investors with stake in an Exchange Trade Fund (ETF). Investors can now view the performances of all securities contained in an ETF on one page, as well has dynamically displaying content dependent on individual stock performance."
